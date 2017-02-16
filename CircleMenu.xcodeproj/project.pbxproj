@@ -14,6 +14,12 @@
 		ECABD8161E55A2C400372DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8151E55A2C400372DBD /* Assets.xcassets */; };
 		ECABD8191E55A2C400372DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8171E55A2C400372DBD /* LaunchScreen.storyboard */; };
 		ECABD8241E55A2C400372DBD /* CircleMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECABD8231E55A2C400372DBD /* CircleMenuTests.m */; };
+		ECABD8351E55A5AA00372DBD /* photo_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECABD82F1E55A5AA00372DBD /* photo_delete@2x.png */; };
+		ECABD8361E55A5AA00372DBD /* share_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8301E55A5AA00372DBD /* share_qq.png */; };
+		ECABD8371E55A5AA00372DBD /* share_sina.png in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8311E55A5AA00372DBD /* share_sina.png */; };
+		ECABD8381E55A5AA00372DBD /* share_wx.png in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8321E55A5AA00372DBD /* share_wx.png */; };
+		ECABD8391E55A5AA00372DBD /* share_wxZone.png in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8331E55A5AA00372DBD /* share_wxZone.png */; };
+		ECABD83A1E55A5AA00372DBD /* shareqq_zone.png in Resources */ = {isa = PBXBuildFile; fileRef = ECABD8341E55A5AA00372DBD /* shareqq_zone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		ECABD81F1E55A2C400372DBD /* CircleMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECABD8231E55A2C400372DBD /* CircleMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleMenuTests.m; sourceTree = "<group>"; };
 		ECABD8251E55A2C400372DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECABD82F1E55A5AA00372DBD /* photo_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_delete@2x.png"; sourceTree = "<group>"; };
+		ECABD8301E55A5AA00372DBD /* share_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_qq.png; sourceTree = "<group>"; };
+		ECABD8311E55A5AA00372DBD /* share_sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_sina.png; sourceTree = "<group>"; };
+		ECABD8321E55A5AA00372DBD /* share_wx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wx.png; sourceTree = "<group>"; };
+		ECABD8331E55A5AA00372DBD /* share_wxZone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wxZone.png; sourceTree = "<group>"; };
+		ECABD8341E55A5AA00372DBD /* shareqq_zone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareqq_zone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		ECABD8081E55A2C400372DBD /* CircleMenu */ = {
 			isa = PBXGroup;
 			children = (
+				ECABD82E1E55A5AA00372DBD /* image */,
 				ECABD80C1E55A2C400372DBD /* AppDelegate.h */,
 				ECABD80D1E55A2C400372DBD /* AppDelegate.m */,
 				ECABD80F1E55A2C400372DBD /* ViewController.h */,
@@ -109,6 +122,19 @@
 				ECABD8251E55A2C400372DBD /* Info.plist */,
 			);
 			path = CircleMenuTests;
+			sourceTree = "<group>";
+		};
+		ECABD82E1E55A5AA00372DBD /* image */ = {
+			isa = PBXGroup;
+			children = (
+				ECABD82F1E55A5AA00372DBD /* photo_delete@2x.png */,
+				ECABD8301E55A5AA00372DBD /* share_qq.png */,
+				ECABD8311E55A5AA00372DBD /* share_sina.png */,
+				ECABD8321E55A5AA00372DBD /* share_wx.png */,
+				ECABD8331E55A5AA00372DBD /* share_wxZone.png */,
+				ECABD8341E55A5AA00372DBD /* shareqq_zone.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +221,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECABD8391E55A5AA00372DBD /* share_wxZone.png in Resources */,
+				ECABD8361E55A5AA00372DBD /* share_qq.png in Resources */,
+				ECABD83A1E55A5AA00372DBD /* shareqq_zone.png in Resources */,
+				ECABD8351E55A5AA00372DBD /* photo_delete@2x.png in Resources */,
 				ECABD8191E55A2C400372DBD /* LaunchScreen.storyboard in Resources */,
 				ECABD8161E55A2C400372DBD /* Assets.xcassets in Resources */,
+				ECABD8371E55A5AA00372DBD /* share_sina.png in Resources */,
+				ECABD8381E55A5AA00372DBD /* share_wx.png in Resources */,
 				ECABD8141E55A2C400372DBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
